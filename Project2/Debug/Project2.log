@@ -1,0 +1,23 @@
+﻿Build started 05.01.2018 16:00:37.
+     1>Project "C:\Users\root\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Новая папка\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.Compatibility.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"E:\Новая папка\Visual Studio Tools for Office\PIA\Common\stdole.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Decrypt.cpp MyForm.cpp
+         Decrypt.cpp
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(98): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(136): warning C4018: '<' : signed/unsigned mismatch
+         MyForm.cpp
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(96): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(98): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\root\documents\visual studio 2013\projects\project2\project2\crypt.h(136): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         E:\Новая папка\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\root\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\Project2.Decrypt.resources /ASSEMBLYRESOURCE:Debug\Project2.MyForm.resources /ASSEMBLYRESOURCE:Debug\Project2.MyForm1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\root\documents\visual studio 2013\Projects\Project2\Debug\Project2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\root\documents\visual studio 2013\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\Decrypt.obj
+         Debug\MyForm.obj
+         Debug\MyForm1.obj
+         Project2.vcxproj -> C:\Users\root\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe
+     1>Done Building Project "C:\Users\root\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.14
